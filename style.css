@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(data:image/jpeg;base64,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);
+  background-size: cover;
+  font-family: "Merriweather", serif;
+}
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewY(5deg);
+  border: 4px solid #fff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #1eff4e,
+   0 0 30px #ff1ee1,0 0 30px #1eff4e,
+   0 0 30px #1eff4e;
+
+   animation: animate 1s linear infinite ;
+}
+div:before{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: 60px;
+ height: 4px;
+ width: 100%;
+ background-color: #fff;
+  box-shadow: 0 0 10px #1eff4e,
+   0 0 30px #ff1ee1;
+   z-index: -1;
+}
+
+div:after{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: 100px;
+ height: 4px;
+ width: 100%;
+ background-color: #fff;
+  box-shadow: 0 0 10px #1eff4e,
+   0 0 30px #ff1ee1;
+   z-index: -1;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 7em;
+    color: #fff;
+}
+span{
+  
+     box-shadow: 0 0 10px #1eff4e,
+    0 0 20px #ff1ee1,0 0 80px #1eff4e,0 0 120px #1eff4e;
+
+   
+    animation: animate .25s linear infinite;
+}
+h1 span:nth-child(1){
+    animation-delay: .25s;
+}
+
+h1 span:nth-child(2){
+    animation-delay: .2s;
+}
+h1 span:nth-child(3){
+    animation-delay: .35s;
+}
+h1 span:nth-child(4){
+    animation-delay: .4s;
+}
+@keyframes animate {
+    0%{
+        opacity:1 ;
+    }
+   30%{
+        opacity:.1 ;
+    }
+    40%{
+        opacity:.5 ;
+    }
+    50%{
+        opacity:1 ;
+    }
+    100%{
+        opacity:1 ;
+    }
+}
