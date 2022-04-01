@@ -130,6 +130,7 @@ svg {
   margin: 50% 50%;
 }
 svg circle {
+  stroke: #fff;
   width: 100%;
   height: 100%;
   fill: none;
@@ -143,13 +144,18 @@ svg circle:nth-child(2) {
  stroke-dasharray: 440px;
    stroke-dashoffset:440px;
 }
-.card:nth-child(1)svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px-(440px*90)/100);
+.card:nth-child(1) svg circle:nth-child(2) {
+    stroke-dashoffset:calc(440px-(440px*90) /100);
+   
 }
 
-.card:nth-child(2)svg circle:nth-child(2) {
+/* .card:nth-child(2) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440px-(440px*82)/100);
 }
-.card:nth-child(3)svg circle:nth-child(2) {
+.card:nth-child(3) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440px-(440px*65)/100);
-}
+}  */
+
+/* .circle-card-1{
+  
+} */
