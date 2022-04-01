@@ -72,7 +72,7 @@ i:hover{
 /*  */
  /* font-size: 1em;
     white-space:nowrap; */
- /* section .row:nth-child(even) div{
+ section .row:nth-child(even) div{
    
     animation: animate3 80s linear infinite;
     animation-delay: -80s;
@@ -103,4 +103,4 @@ section .row:nth-child(even) div:nth-child(2){
      100%{
         transform: translateX(0%);
     }
-}  */
+} 
